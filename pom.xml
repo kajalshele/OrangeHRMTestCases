@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>QualityKioskTraining</groupId>
-  <artifactId>FlightReservationApplicationTesting</artifactId>
+  <artifactId>OrangeHRMTestCases</artifactId>
   <version>1.0</version>
 
-  <name>FlightReservationApplicationTesting</name>
+  <name>OrangeHRMTestCases</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -22,7 +22,7 @@
   <dependency>
       	<groupId>QualityKioskTraining</groupId>
   		<artifactId>AutomationFrameworkAPI</artifactId>
-  		<version>1.4</version>
+  		<version>1.5</version>
     </dependency>
     
   

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-30T23:18:20 IST" name="OrangeHRMDemoTestCases" finished-at="2021-05-30T23:19:11 IST" duration-ms="51115">
+  <suite name="OrangeHRMDemoTestCases" duration-ms="89949" started-at="2021-05-30T23:21:34 IST" finished-at="2021-05-30T23:23:04 IST">
     <groups>
     </groups>
-    <test started-at="2021-05-30T23:18:20 IST" name="ValidLoginTests" finished-at="2021-05-30T23:18:49 IST" duration-ms="29083">
+    <test name="ValidLoginTests" duration-ms="29861" started-at="2021-05-30T23:21:34 IST" finished-at="2021-05-30T23:22:04 IST">
       <class name="QualityKioskTraining.TestCases.ValidLoginTestCases">
-        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:QualityKioskTraining.TestCases.ValidLoginTestCases@7e9131d5]" started-at="2021-05-30T23:18:20 IST" name="init" finished-at="2021-05-30T23:18:41 IST" duration-ms="21470" status="PASS">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:QualityKioskTraining.TestCases.ValidLoginTestCases@527740a2]" name="init" is-config="true" duration-ms="20215" started-at="2021-05-30T23:21:34 IST" finished-at="2021-05-30T23:21:55 IST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testLoginWithValidCredential()[pri:1, instance:QualityKioskTraining.TestCases.ValidLoginTestCases@7e9131d5]" started-at="2021-05-30T23:18:41 IST" name="testLoginWithValidCredential" finished-at="2021-05-30T23:18:49 IST" duration-ms="7436" status="PASS">
+        <test-method status="PASS" signature="testLoginWithValidCredential()[pri:1, instance:QualityKioskTraining.TestCases.ValidLoginTestCases@527740a2]" name="testLoginWithValidCredential" duration-ms="9491" started-at="2021-05-30T23:21:55 IST" finished-at="2021-05-30T23:22:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredential -->
       </class> <!-- QualityKioskTraining.TestCases.ValidLoginTestCases -->
     </test> <!-- ValidLoginTests -->
-    <test started-at="2021-05-30T23:18:50 IST" name="InValidLoginTests" finished-at="2021-05-30T23:19:11 IST" duration-ms="20745">
+    <test name="InValidLoginTests" duration-ms="59914" started-at="2021-05-30T23:22:04 IST" finished-at="2021-05-30T23:23:04 IST">
       <class name="QualityKioskTraining.TestCases.InvalidLoginTestCases">
-        <test-method is-config="true" signature="init(java.lang.String)[pri:0, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@e7edb54]" started-at="2021-05-30T23:18:50 IST" name="init" finished-at="2021-05-30T23:19:07 IST" duration-ms="16488" status="PASS">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@1f36e637]" name="init" is-config="true" duration-ms="41198" started-at="2021-05-30T23:22:04 IST" finished-at="2021-05-30T23:22:46 IST">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testLoginWithInValidCredential(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@e7edb54]" started-at="2021-05-30T23:19:07 IST" name="testLoginWithInValidCredential" data-provider="invalidLoginData" finished-at="2021-05-30T23:19:08 IST" duration-ms="1188" status="PASS">
+        <test-method status="PASS" signature="testLoginWithInValidCredential(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@1f36e637]" name="testLoginWithInValidCredential" duration-ms="7607" started-at="2021-05-30T23:22:46 IST" data-provider="invalidLoginData" finished-at="2021-05-30T23:22:53 IST">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInValidCredential -->
-        <test-method signature="testLoginWithInValidCredential(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@e7edb54]" started-at="2021-05-30T23:19:08 IST" name="testLoginWithInValidCredential" data-provider="invalidLoginData" finished-at="2021-05-30T23:19:09 IST" duration-ms="1052" status="PASS">
+        <test-method status="PASS" signature="testLoginWithInValidCredential(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@1f36e637]" name="testLoginWithInValidCredential" duration-ms="5876" started-at="2021-05-30T23:22:53 IST" data-provider="invalidLoginData" finished-at="2021-05-30T23:22:59 IST">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInValidCredential -->
-        <test-method signature="testLoginWithInValidCredential(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@e7edb54]" started-at="2021-05-30T23:19:09 IST" name="testLoginWithInValidCredential" data-provider="invalidLoginData" finished-at="2021-05-30T23:19:11 IST" duration-ms="1969" status="PASS">
+        <test-method status="PASS" signature="testLoginWithInValidCredential(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:QualityKioskTraining.TestCases.InvalidLoginTestCases@1f36e637]" name="testLoginWithInValidCredential" duration-ms="5226" started-at="2021-05-30T23:22:59 IST" data-provider="invalidLoginData" finished-at="2021-05-30T23:23:04 IST">
           <params>
             <param index="0">
               <value>
